@@ -1,0 +1,23 @@
+<svg width="1268" height="305" viewBox="0 0 1268 305" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M699 1.69238H692L698 8.84532H704.5L699 1.69238Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M714 1.09619H707L713 8.24913H719.5L714 1.09619Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M728 1.09619H721L727 8.24913H733.5L728 1.09619Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M741 1.09619H734L740 8.24913H746.5L741 1.09619Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M66.28 297.347H73L67.24 304.5H61L66.28 297.347Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M80.28 297.347H87L81.24 304.5H75L80.28 297.347Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M94.28 297.347H101L95.24 304.5H89L94.28 297.347Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path d="M108.28 297.347H115L109.24 304.5H103L108.28 297.347Z" fill="#D9D9D9" stroke="#D9D9D9" />
+                <path
+                    d="M695.401 13.6311L695.668 13.8301H696H1140.5H1140.85L1141.12 13.6127L1156.35 1.5H1251.17L1267 13.3312V273.825L1230.16 302.65H359.858L345.135 290.547L344.858 290.32H344.5H62H61.6323L61.3522 290.558L46.1323 303.5H16.3589L1 290.848V14.1427L15.8677 1.5H679.168L695.401 13.6311Z"
+                    stroke="url(#paint0_radial_204_856)" stroke-width="2" />
+                <defs>
+                    <radialGradient id="paint0_radial_204_856" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="translate(601.814 153.115) rotate(115.9) scale(218.911 744.982)">
+                        <stop stop-color="#EAC12B" />
+                        <stop offset="0.370833" stop-color="#FFBB4C" />
+                        <stop offset="0.6625" stop-color="#F18914" />
+                        <stop offset="1" stop-color="#AC5600" />
+                    </radialGradient>
+                </defs>
+            </svg>

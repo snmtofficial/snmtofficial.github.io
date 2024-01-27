@@ -1,0 +1,1117 @@
+/* table */
+@media only screen and (min-width: 768px) and (max-width: 1260px) {
+
+
+    .about-inner-section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-inner-section .container {
+        padding: 0;
+        overflow: hidden;
+        max-width: 1090px;
+    }
+
+    .about-inner-details {
+        margin-right: 0;
+    }
+
+    .about-table .table-cont {
+        padding-right: 48px;
+        font-size: 16px;
+    }
+
+    .about-table .table-header {
+        font-size: 16px;
+    }
+
+    .about-inner-section .container>.row>.col-md-6:last-child {
+        position: relative;
+    }
+
+    .about-inner-section .container>.row>.col-md-6:last-child::after {
+        content: '';
+        width: 100%;
+        height: 96%;
+        position: absolute;
+        right: 12px;
+        bottom: 0;
+        border-right: solid 2px #ac5600;
+    }
+
+    .footer-info p {
+        font-size: 14px;
+    }
+
+    .social-link a {
+        width: 60px;
+        height: 60px;
+        background-size: 60px;
+    }
+
+    .footer-section .row::before {
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        content: '';
+        width: 100%;
+        height: 95%;
+        position: absolute;
+        left: 0;
+        top: 13px;
+        border-right: solid #f79f2c 2px;
+    }
+
+    .footer-section .row::after {
+        min-height: 100%;
+    }
+
+    .footer-info {
+        min-height: 290px;
+    }
+
+    .container {
+        max-width: 96%;
+    }
+
+    .footer-info {
+        margin-left: 0;
+    }
+
+    .footer-section .container {
+        overflow: hidden;
+        max-width: 90%;
+    }
+
+    .logo-row-bg {
+        width: 100%;
+    }
+
+    .how-to-buy-section .how-ro-buy-header {
+        margin-bottom: 40px;
+    }
+
+    .logo-row .link {
+        margin-bottom: 20px;
+    }
+
+    .logo-row {
+        margin-bottom: 20px;
+    }
+
+    .about-section {
+        margin-top: 80px;
+    }
+
+    .scroll-btn {
+        top: 0;
+    }
+
+    .about-header {
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .about-header svg {
+        max-width: 90%;
+    }
+}
+
+
+
+/* mobile  */
+@media (max-width: 1024px) {
+    .first-road-info {
+        margin-top: 95px;
+        margin-left: -11px;
+    }
+
+    .second-road-info {
+        margin-top: 95px;
+    }
+
+    .third-road-info {
+        margin-top: 116px;
+        margin-left: 19px;
+    }
+
+    .technology-header-section .technology-bg {
+        max-width: 100%;
+    }
+
+    .banner-section .container .row {
+        min-height: auto;
+    }
+
+    .banner-section .container {
+        min-height: auto;
+    }
+
+    .banner-section {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .about-section {
+        margin-top: 90px;
+    }
+
+    .faq-section {
+        padding: 122px 0 60px;
+    }
+
+}
+
+
+@media (max-width: 980px) {
+    .accordion-item {
+        margin-bottom: 20px;
+        max-width: 90%;
+    }
+
+    .about-table .table-cont {
+        padding-right: 0px;
+        min-width: 100%;
+    }
+
+    .about-table .row {
+        padding-right: 20px;
+    }
+
+    .about-table .table-header {
+        min-width: 100%;
+    }
+
+    .roadmap-section .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .accordion-button {
+        align-items: center;
+    }
+
+    .logo-row-bg {
+        width: 100%;
+    }
+
+    .logo-row .link img {
+        width: 35px;
+    }
+
+    .logo-row .link-text {
+        font-size: 20px;
+    }
+
+    .logo-row .link span {
+        font-size: 24px;
+    }
+
+    .logo-row .link {
+        margin-bottom: 20px;
+    }
+
+    .logo-row {
+        margin-bottom: 20px;
+    }
+
+    .how-to-buy-section .how-ro-buy-header {
+        margin-bottom: 40px;
+    }
+
+    .how-to-buy-section .how-ro-buy-header h2 {
+        font-size: 44px;
+        line-height: normal;
+    }
+
+    .svg-line {
+        max-width: 80px;
+        width: 100%;
+        left: -1px;
+        position: relative;
+        z-index: 11;
+
+    }
+
+    .svg-line::after {
+        border-left: 1px dashed #fff;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .svg-line svg {
+        max-width: 50px;
+    }
+
+    .roadmap-info h3 {
+        line-height: normal;
+        font-size: 16px;
+    }
+
+    .roadmap-info ul li {
+        font-size: 14px;
+    }
+
+    /* svg-line */
+    .roadmap-row {
+        max-width: 575px;
+    }
+
+    .roadmap-info ul li {
+        line-height: 26px;
+    }
+
+    .svg-line .line-svg {
+        display: none;
+    }
+
+    .first-road-info {
+        margin-top: 120px;
+        margin-left: 19px;
+    }
+
+    .second-road-info {
+        margin-top: 209px;
+        margin-left: 18px;
+    }
+
+    .third-road-info {
+        margin-top: 233px;
+        margin-left: 14px;
+    }
+
+    .first-svg {
+        display: block;
+    }
+
+    .second-svg {
+        display: block;
+    }
+
+    .last-img {
+        display: block;
+    }
+
+    .second-row img.first-svg {
+        margin-top: -100%;
+    }
+
+    .second-row img.second-svg {
+        margin-top: -150%;
+    }
+
+    .last-row img.last-img {
+        margin-top: -250%;
+    }
+
+    .technology-header-section .technology-bg {
+        max-width: 100%;
+    }
+
+    .about-info p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .about-header {
+        margin-left: 0;
+        max-width: 160px;
+        padding-left: 20px;
+        height: 100px;
+    }
+
+    .about-header svg {
+        max-width: 160px;
+        height: 100px;
+    }
+
+    .about-header h2 {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .about-info {
+        padding-top: 25px;
+    }
+
+    .section-header {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 76px;
+    }
+
+    .about-header-block {
+        width: 189px;
+        height: 96px;
+    }
+
+    .about-header-block img {
+        width: 189px;
+        height: 96px;
+    }
+
+    .about-section {
+        margin-top: 90px;
+    }
+
+    .know-more {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .scroll-btn {
+        top: 0;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .hero-info h2 {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .dektop {
+        display: none;
+    }
+
+    .technology-header-section {
+        margin-bottom: 40px;
+    }
+
+    .banner-section .container .row {
+        min-height: auto;
+    }
+
+    .banner-section .container {
+        min-height: auto;
+    }
+
+    .header-wrapper .logo span {
+        display: none;
+    }
+
+    .header-wrapper .logo {
+        border-right: none;
+    }
+
+    .social-icon {
+        border-left: none;
+    }
+
+    .hero-info {
+        top: -20%;
+    }
+
+    .hero-info h2 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .hero-info h2 span {
+        font-size: 32px;
+    }
+
+    .hero-info p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .technology-header-section .technology-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+
+    }
+
+    .technology-info p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .hero-btn {
+        margin: 30px auto 0;
+    }
+
+    .banner-section {
+        min-height: auto;
+    }
+
+    .banner-section .row:last-child .col-md-6 {
+        display: none;
+    }
+
+    .hero-info {
+        position: relative;
+    }
+
+    .hero-items {
+        top: initial;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        left: initial;
+        right: initial;
+        margin: 0 auto;
+    }
+
+    .roadmap-row {
+        max-width: 90%;
+    }
+
+    /*  */
+
+    .how-to-buy-section .how-ro-buy-header h2 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 10px 0;
+    }
+
+    .how-ro-buy-header p {
+        font-size: 14px;
+    }
+
+    .cooming-soon {
+        font-size: 24px;
+    }
+
+    .logo-row-bg {
+        width: 100%;
+    }
+
+    .logo-row .link img {
+        width: 35px;
+    }
+
+    .logo-row .link-text {
+        font-size: 20px;
+    }
+
+    .logo-row .link span {
+        font-size: 24px;
+    }
+
+    .logo-row .link {
+        margin-bottom: 20px;
+    }
+
+    .logo-row {
+        margin-bottom: 20px;
+    }
+
+    /* According */
+    .faq-header {
+        font-size: 28px;
+        line-height: normal;
+        margin-bottom: 52px;
+    }
+
+    .accordion .col-md-6 {
+        min-height: auto;
+    }
+
+    .accordion-item {
+        margin-bottom: 20px;
+    }
+
+    .accordion-button {
+        align-items: center;
+    }
+
+    .faq-section {
+        padding: 82px 0;
+    }
+
+    /* footer  */
+
+    .footer-info h2 {
+        font-size: 16px;
+    }
+
+    .footer-section .row::after {
+        display: none;
+    }
+
+    .footer-section .container>.row {
+        padding: 40px 0px;
+        background-image: url(../img/footer-bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer-bg {
+        display: none;
+    }
+
+    .footer-action {
+        min-height: auto;
+    }
+
+    .footer-field {
+        margin-top: 30px;
+    }
+
+    .footer-action {
+        padding-right: 0;
+    }
+
+    .footer-info {
+        margin-left: 0;
+    }
+
+    .footer-info {
+        min-height: auto;
+    }
+
+    .footer-action {
+        margin-top: 10px;
+    }
+
+    .footer-info p {
+        font-size: 12px;
+    }
+
+    .social-link a {
+        height: 50px;
+        width: 50px;
+        background-size: 50px;
+    }
+
+    .button-btn-border {
+        display: none;
+    }
+
+    .footer-field {
+        flex-direction: column;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .footer-field input {
+        height: 40px;
+    }
+
+    .footer-field .btn-action {
+        position: relative;
+        top: 8px;
+        right: 0;
+        width: 40%;
+    }
+
+    .footer-field {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .footer-field input {
+        height: 40px;
+        width: 60%;
+    }
+
+    .btn-action {
+        font-size: 14px;
+    }
+
+    .footer-action {
+        padding: 10px;
+    }
+
+    .footer-field .btn-action {
+        top: 0;
+        margin-left: 0;
+        height: 40px;
+    }
+
+    .btn-action button {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-field .btn-action .btn-bg {
+        height: 40px;
+    }
+
+    .footer-field input {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .footer-info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-action {
+        width: 96%;
+    }
+
+    .about-inner-section .container>.row>.col-md-6 {
+        min-height: auto;
+    }
+
+    .about-inner-section .about-inner-bg {
+        display: none;
+    }
+
+    .about-inner-icon {
+        display: none;
+    }
+
+    .about-inner-info p {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: 0;
+    }
+
+    .about-inner-info {
+        height: auto;
+    }
+
+    .table-header {
+        font-size: 16px;
+    }
+
+    .table-cont {
+        font-size: 16px;
+    }
+
+    .table-cont {
+        min-width: 100%;
+    }
+
+    .about-table .row {
+        padding-right: 0;
+    }
+
+    .table-header {
+        min-width: 100%;
+    }
+
+    .about-inner-info {
+        width: 60%;
+        margin-bottom: 18px;
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+
+    .about-inner-details {
+        min-height: auto;
+        height: auto;
+    }
+
+    .about-inner-section .container {
+        position: relative;
+    }
+
+    .about-inner-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .about-inner-header {
+        font-size: 12px;
+    }
+
+    .about-inner-header {
+        max-width: 105px;
+        width: 105px;
+    }
+
+    .about-inner-header .about-bg {
+        width: 105px;
+        height: 40px;
+    }
+
+    .about-inner-header svg:last-child {
+        width: 10px;
+    }
+
+    .about-inner-details {
+        width: 90%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .about-table {
+        width: 100%;
+    }
+
+    .about-inner-section .container {
+        background-image: url(../img/tokenomics-bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 366px;
+    }
+
+    .about-inner-section .container {
+        position: relative;
+        min-height: 378px;
+    }
+
+    .about-inner-section>.container>.row {
+        min-height: 348px;
+    }
+
+    .about-inner-header {
+        top: 46px;
+        right: 0;
+        margin-right: 20px;
+    }
+
+    .first-road-info {
+        margin-top: 120px;
+        margin-left: 10px;
+    }
+
+    .second-road-info {
+        margin-top: 130px;
+        margin-left: 8px;
+    }
+
+    .third-road-info {
+        margin-top: 120px;
+        margin-left: 14px;
+    }
+
+    .second-row img.second-svg {
+        margin-top: -240%;
+    }
+
+    .last-row img.last-img {
+        margin-top: -390%;
+    }
+
+    .about-header-block {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 667px) {
+    .about-inner-info {
+        margin-left: 0;
+    }
+
+    .about-inner-section .container {
+        background-size: 100% 366px;
+    }
+
+    .about-inner-section .container {
+        position: relative;
+        min-height: 378px;
+    }
+
+    .about-inner-section>.container>.row {
+        min-height: 348px;
+    }
+
+    .footer-section .container>.row {
+        background-size: 100% 330px;
+    }
+}
+
+@media (max-width: 467px) {
+    .about-inner-info {
+        margin-left: 0;
+    }
+
+    .about-inner-section .container {
+        background-size: 100% 376px;
+    }
+
+    .about-inner-section .container {
+        position: relative;
+        min-height: 398px;
+    }
+
+    .about-inner-section>.container>.row {
+        min-height: 398px;
+    }
+
+    .footer-section .container>.row {
+        background-size: 100% 340px;
+    }
+}
+
+@media (max-width: 367px) {
+    .footer-section .container>.row {
+        background-size: 100% 370px;
+    }
+}
+
+
+
+@media (max-width: 290px) {
+    .scroll-btn svg {
+        width: 46px;
+        height: 46px;
+    }
+
+    .section-header {
+        font-size: 22px;
+    }
+
+    .about-header-block {
+        width: 160px;
+        height: 70px;
+    }
+
+    .about-header-block img {
+        width: 160px;
+        height: 70px;
+    }
+
+    .about-inner-info p {
+        font-size: 12px;
+    }
+
+    .about-inner-header {
+        font-size: 10px;
+    }
+
+    .table-cont {
+        font-size: 12px;
+    }
+
+    .table-header {
+        font-size: 12px;
+    }
+
+    .technology-header {
+        font-size: 20px;
+    }
+
+    .technology-header-section .technology-bg {
+        height: 69px;
+    }
+
+    .technology-header-section {
+        min-height: 69px;
+    }
+
+    .first-road-info {
+        margin-top: 100px;
+    }
+
+    .second-road-info {
+        margin-top: 105px;
+    }
+
+    .third-road-info {
+        margin-top: 63px;
+    }
+
+    .logo-row .link-text {
+        font-size: 14px;
+    }
+
+    .logo-row .link {
+        column-gap: 5px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo-row {
+        min-height: 109px;
+    }
+
+    .logo-row .link {
+        margin-left: 10px;
+        margin-bottom: -40px;
+    }
+
+    .faq-header {
+        font-size: 20px;
+    }
+
+    .btn-action button {
+        min-width: 100%;
+        font-size: 8px;
+    }
+
+    .btn-action {
+        font-size: 12px;
+    }
+
+    .social-link {
+        margin-bottom: 16px;
+        column-gap: 17px;
+    }
+
+    .roadmap-header {
+        font-size: 20px;
+    }
+
+    .social-link a {
+        height: 40px;
+        width: 40px;
+        background-size: 40px;
+    }
+
+    .social-link svg {
+        width: 24px;
+    }
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) {
+
+    .button-btn-border {
+        display: flex;
+    }
+
+    .footer-field .btn-action .btn-bg {
+        height: 40px;
+    }
+
+    .footer-section .container>.row {
+        background-image: url(../img/footer-main.svg) !important;
+        background-size: cover !important;
+    }
+
+    .footer-action {
+        min-height: 215px;
+    }
+
+    .footer-field .btn-action {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 40%;
+        margin-left: 13px;
+        padding: 0 21px;
+    }
+
+    .footer-field {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .footer-field input {
+        height: 40px;
+        width: 60%;
+    }
+
+    .banner-section .container .row {
+        min-height: auto;
+    }
+
+    .banner-section .container {
+        min-height: auto;
+        max-width: 96%;
+    }
+
+    .banner-section {
+        min-height: auto;
+    }
+
+    .hero-info {
+        margin-top: 60px;
+    }
+
+    .first-road-info {
+        margin-top: 120px;
+        margin-left: 19px;
+    }
+
+    .second-road-info {
+        margin-top: 205px;
+        margin-left: 19px;
+    }
+
+    .third-road-info {
+        margin-top: 240px;
+        margin-left: 19px;
+    }
+
+    .last-row img.last-img {
+        margin-top: -235%;
+    }
+
+    .faq-section {
+        padding: 100px 0 60px;
+    }
+}
+
+@media all and (device-width : 1024px) and (device-width : 1366px) {
+    .container {
+        max-width: 940px;
+    }
+
+    .first-road-info {
+        margin-top: 105px;
+        margin-left: 19px;
+    }
+
+    .second-road-info {
+        margin-top: 90px;
+        margin-left: 19px;
+    }
+
+    .third-road-info {
+        margin-top: 105px;
+        margin-left: 19px;
+    }
+
+    .last-row img.last-img {
+        margin-top: -235%;
+    }
+
+    .faq-section {
+        padding: 100px 0 60px;
+    }
+
+    .about-header {
+        width: 90%;
+        padding-left: 30px;
+    }
+
+    .about-header svg {
+        width: 100%;
+    }
+
+    .about-section {
+        margin-top: 120px;
+    }
+
+    .scroll-btn {
+        top: 0;
+    }
+
+    .hero-info h2 {
+        font-size: 42px;
+    }
+
+}
